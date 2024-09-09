@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+    <title>A jornada</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-inicial.jpg" alt="">
+            <p>Bem vindo aventureiro, somos os deuses que te trouxeram para esse mundo, vocë acabou de ser atropelado
+                pelo caminhao-kun e te daremos uma nova oportunidade, esse é um mundo magico e maravilhoso, porém a
+                alguns anos atras um desastre aconteceu, um rei demonio muito feroz esta acabando com a paz das pessoas,
+                derrote o demonio e salve o mundo</p>
+            <button class="btn-proximo" data-proximo="1">Aceitar a missão</button>
+            <button class="btn-proximo" data-proximo="2">Recusar a missão</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="samurai-mago.jpg" alt="">
+            <p>seremos eternamente gratos a vocë, te abencoaremos com muito poder para que possa enfrentar os obstaculos
+                que te esperam.
+                os deuses te apresentam para os reis do mundo e eles te apresentam duas pessoas.
+                Voce precisa escolher uma delas para ir com voce.</p>
+            <button class="btn-proximo" data-proximo="3">Escolher o mago de aparencia suspeita</button>
+            <button class="btn-proximo" data-proximo="4">escolher o samurai honroso</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="floresta.jpg" alt="">
+            <p>maldito seja, seu sem coracao, sera mandado para as profundezas, para o territorio do terrivel demonio e
+                sua alma se corrompera e nunca mais podera renascer.
+                Vocë é mandado para o territorio do terrivel demonio e se depara com uma bifurcacao
+            </p>
+            <button class="btn-proximo" data-proximo="5">caminho direito</button>
+            <button class="btn-proximo" data-proximo="6">caminho esquerdo</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="mago.jpg" alt="">
+            <p>näo se julga um livro pela capa
+                voce e o mago se juntam para ir ao castelo do rei demonio.
+                Como uma forma de demonstrar sua lealdade a voce, o mago lhe entrega um artefato magico que lhe permite
+                reviver uma vez</p>
+            <button class="btn-proximo" data-proximo="7">voce pega o artefato</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="samurai.jpg" alt="">
+            <p>No caminho para o castelo do terrivel rei demonio o honroso samurai se revela um monstro disfarcado.
+                Ele te amaldicoa e voce vira uma fragil e pequena slime, que no instante seguinte é morta por um
+                cacador.
+            </p>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="monstro.jpg" alt="">
+            <p>inicialmente parece que nao ha nada por esse caminho, porem vocë acaba se deparando com uma enorme fera.
+                Infelizmente vocë foi devorado pela fera e sua alma nunca mais renascera
+            </p>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="lago.jpg" alt="">
+            <p>vocë se depara com um ser estranho a beira de um lago, ele parece muito ferido
+            </p>
+            <button class="btn-proximo" data-proximo="8">ajudar</button>
+            <button class="btn-proximo" data-proximo="9">não ajudar</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="castelo.jpg" alt="">
+            <p>voce e o mago chegaram ao castelo do rei demonio, e uma intensa luta acontece.
+                Por fim voces vencem
+                e quando o rei demonio se desintegra, uma joia vermelha surge no lugar
+            </p>
+            <button class="btn-proximo" data-proximo="10">pegar a joia</button>
+            <button class="btn-proximo" data-proximo="11">destruir a joia</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="demonking.jpg" alt="">
+            <p>vocë o ajuda, rasga um pedaco da sua roupa e enrola em seus ferimentos, ele agradece e lhe pede para
+                acompanha-lo ate sua casa, vocë aceita ja que näo tem onde ficar. Chegando la voce descobre que quem
+                vocë ajudou é nada mais nada menos que o terrivel demonio.
+            </p>
+            <button class="btn-proximo" data-proximo="12">ficar</button>
+            <button class="btn-proximo" data-proximo="13">fugir</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="youdied.jpg" alt="">
+        <p>a desgraca caiu sobre voce, voce se perdeu na floresta. Dias e Dias se passam e vocë näo encontra seguer uma
+            fruta e sequer um resquicio de civilizacä.
+            Vocë infelizmente morreu sozinho e no frio, e sua alma nunca mais podera renascer novamente sem a bencäo dos
+            deuses
+        </p>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="happydemon.jpg" alt="">
+        <p>voce pega a joia e guarda em seu bolso. voce e o mago voltam para comunicar os reis da derrota do terrivel
+            rei demonio.
+            Os reis lhes entregam uma grande recompensa e voce fica conhecido como o heroi que trouxe a paz para o
+            mundo.
+            porem, os reis resolvem lhe contar o verdadeiro motivo deles quererem a morte do rei demonio.
+            na realidade eles nao estavam nem ai para a paz, eles apenas estavam atras dos minerios raros que haviam no
+            territorio dele.
+            voce entra em choque e comeca a contestar suas proprias decisoes.
+            no dia em que ficou sabendo da verdade, voce teve um sonho, onde o rei demonio aparecia, com uma triste
+            expressao no rosto. Quando acorda voce resolve utilizar o artefado que o mago lhe deu para reviver o rei
+            demonio.
+            Assim que ele revive ele logo olha para voce e agradece por te-lo revivido.
+            Voce se apaixonou a primeira vista pelo rei demonio e inesperadamente voce o pede em casamento.
+            ele aceita e voces vivem felizes para sempre encondidos em uma longincua floresta .
+        </p>
+
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="nuvens.jpg" alt="">
+        <p>assim que voce destroi a joia um grande terremoto acontece.
+            tudo comeca a desmoronar e o ceu se escurece. o mago os teleporta para fora dali e eis entao que uma
+            entidade angelical surge e fala - voces humanos inferiores, acabaram de destruir a joia que mantem o mundo
+            estavel, sofram com as consequencias
+        </p>
+        <button class="btn-proximo" data-proximo="14">voces retornam para falar com os reis</button>
+
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="mercenarios.jpg" alt="">
+        <p>vocë decide ficar, afinal ele parece realmente grato e näo parece täo terrivel como os deuses te disseram.
+            O tempo passa e em meio a muitas conversas vocës se apaixonam.
+            vocë descobre que na realidade o demonio nunca havia iniciado os ataques aos humanos,ele estava apenas
+            defendendo seu povo, os reis de todo o mundo se juntaram para invadir o reino dos demonios, pois ali havia
+            um minerio muito valioso e raro.
+            Vocës passaram anos e anos felizes e juntos, porem um desastre acontece. Um grupo de herois junto a um
+            enorme exercito, invadem o castelo do rei demonio.
+            vendo que voce era humana, os heroi se viraram para voce e te deram a escolha de voltar ao reino humano com
+            eles.
+
+        </p>
+        <button class="btn-proximo" data-proximo="15">trair o rei demonio</button>
+        <button class="btn-proximo" data-proximo="16">beijar o rei demonio</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <img src="youdied.jpg" alt="">
+        <p>a desgraca caiu sobre voce, voce se perdeu na floresta. Dias e Dias se passam e vocë näo encontra seguer uma
+            fruta e sequer um resquicio de civilizacä.
+            Vocë infelizmente morreu sozinho e no frio, e sua alma nunca mais podera renascer novamente sem a bencäo dos
+            deuses
+        </p>
+        </div>
+        <div class="passo" id="passo-14">
+            <img src="destruicao.jpg" alt="">
+        <p>ao falar com os reis, voces acabam descobrindo que na realidade foram os humanos que comecaram o conflito com
+            o rei demonio, e que os reis estavam apenas atras dos minerios raros que haviam no territorio.
+            Pela ganancia dos reis, o mundo caiu em caos e a humanidade foi extinta.
+        </p>
+        </div>
+        <div class="passo" id="passo-15">
+            <img src="youdied.jpg" alt="">
+        <p>voce decide deixar o rei demonio para morrer e volta ao reino humano.
+            No fim o rei demonio sobreviveu e voce voltou ao reino humano junto aos herois exaustos da luta.
+            Pela culpa de ter deixado o rei demonio vocë pega um frasco de veneno e da um fim em tudo
+
+        </p>
+        </div>
+        <div class="passo" id="passo-16">
+            <img src="kiss2.jpg" alt="">
+        <p>mesmo sabendo que morreria ao escolher o rei demonio, voce se vira e o beija, no mesmo instante uma forte luz
+            brilha ocorre uma forte explosao que desentegra os herois e o exercito.
+            Por fim o amor de voces foi mais forte e voces viveram felizes para sempre.
+        </p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
